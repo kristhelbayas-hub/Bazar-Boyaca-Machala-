@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Bazar Boyacá</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">BAZAR BOYACÁ</div>
+    </div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="ubicacion.html">Ubicación</a>
+       <a href="pedido.html">Pedido</a>
+      <a href="autores.html">Autores</a>
+    </nav>
+  </header>
+
+  <main>
+  <section id="higiene" class="catalogo-seccion">
+
+  <h2>Higiene personal</h2>
+
+  <h3 class="subtitulo">Higiene Personal</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Cepillo dental',
+  'imagenes/higiene/cepillo.png',
+  'Cepillo dental para la limpieza diaria de los dientes.'
+)">
+    <img src="imagenes/higiene/cepillo.png" alt="Cepillo dental">
+  <h4>Cepillo dental</h4>
+  <p>Higiene bucal diaria.</p>
+  <span class="precio">$1.00</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Pasta dental',
+  'imagenes/higiene/pasta dental.png',
+  'Pasta dental para una correcta higiene bucal.'
+)">
+    <img src="imagenes/higiene/pasta dental.png" alt="Pasta dental">
+  <h4>Pasta dental</h4>
+  <p>Cuidado dental.</p>
+  <span class="precio">$1.00</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Jabón de baño',
+  'imagenes/higiene/jabon de baño.png',
+  'Jabón de baño ideal para uso diario.'
+)">
+    <img src="imagenes/higiene/jabon de baño.png" alt="Jabón de baño">
+  <h4>Jabón de baño</h4>
+  <p>Limpieza corporal.</p>
+  <span class="precio">$0.75</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Shampoo sachet',
+  'imagenes/higiene/shampoo sachet.png',
+  'Shampoo en presentación sachet, práctico y económico.'
+)">
+    <img src="imagenes/higiene/shampoo sachet.png" alt="Shampoo sachet">
+  <h4>Shampoo sachet</h4>
+  <p>Cuidado capilar.</p>
+  <span class="precio">$0.35</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Rasuradora',
+  'imagenes/higiene/rasuradoras.png',
+  'Rasuradora desechable para uso personal.'
+)">
+    <img src="imagenes/higiene/rasuradoras.png" alt="Rasuradora">
+  <h4>Rasuradora</h4>
+  <p>Uso personal.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+</div>
+
+
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">×</span>
+    <h3 id="modal-titulo"></h3>
+    <img id="modal-imagen" src="" alt="">
+    <p id="modal-ingredientes"></p>
+  </div>
+</div>
+
+<script>
+function abrirModal(nombre, imagen, ingredientes) {
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modal-titulo").innerText = nombre;
+  document.getElementById("modal-imagen").src = imagen;
+  document.getElementById("modal-ingredientes").innerText = ingredientes;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
+}
+</script>
+
+<a href="productos.html" class="boton-regresar-fijo">
+       Regresar
+    </a>
+</section>
+</main>
+ <footer>
+  <p>Bazar Boyacá - 2025-2026</p>
+  </footer>
+  </body>
+  </html>

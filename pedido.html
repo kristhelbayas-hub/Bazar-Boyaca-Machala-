@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Bazar Boyacá</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">BAZAR BOYACÁ</div>
+    </div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="ubicacion.html">Ubicación</a>
+      <a href="pedido.html">Pedido</a>
+      <a href="autores.html">Autores</a>
+    </nav>
+  </header>
+
+    
+
+   <div class="grid-productos">
+    <div class="producto-card"><h4>Doritos</h4><p>$0.70</p><button onclick="agregarAlCarrito('Doritos', 0.70)">Añadir</button></div>
+    <div class="producto-card"><h4>Tostitos</h4><p>$0.60</p><button onclick="agregarAlCarrito('Tostitos', 0.60)">Añadir</button></div>
+    <div class="producto-card"><h4>Ruffles</h4><p>$0.70</p><button onclick="agregarAlCarrito('Ruffles', 0.70)">Añadir</button></div>
+    <div class="producto-card"><h4>Panchitos</h4><p>$0.50</p><button onclick="agregarAlCarrito('Panchitos', 0.50)">Añadir</button></div>
+    <div class="producto-card"><h4>Cheese Tris</h4><p>$0.60</p><button onclick="agregarAlCarrito('Cheese Tris', 0.60)">Añadir</button></div>
+
+    <div class="producto-card"><h4>Coca-Cola 500ml</h4><p>$0.80</p><button onclick="agregarAlCarrito('Coca-Cola 500ml', 0.80)">Añadir</button></div>
+    <div class="producto-card"><h4>Pepsi 1L</h4><p>$1.00</p><button onclick="agregarAlCarrito('Pepsi 1L', 1.00)">Añadir</button></div>
+    <div class="producto-card"><h4>Inka Cola</h4><p>$0.65</p><button onclick="agregarAlCarrito('Inka Cola', 0.65)">Añadir</button></div>
+    <div class="producto-card"><h4>Volt</h4><p>$0.60</p><button onclick="agregarAlCarrito('Volt', 0.60)">Añadir</button></div>
+    <div class="producto-card"><h4>Vive 100</h4><p>$0.50</p><button onclick="agregarAlCarrito('Vive 100', 0.50)">Añadir</button></div>
+
+    <div class="producto-card"><h4>Magnum</h4><p>$1.50</p><button onclick="agregarAlCarrito('Magnum', 1.50)">Añadir</button></div>
+    <div class="producto-card"><h4>Helado Casero</h4><p>$0.90</p><button onclick="agregarAlCarrito('Helado Casero', 0.90)">Añadir</button></div>
+
+    <div class="producto-card"><h4>Cuaderno Univ.</h4><p>$1.25</p><button onclick="agregarAlCarrito('Cuaderno Univ.', 1.25)">Añadir</button></div>
+    <div class="producto-card"><h4>Cuaderno 100hj</h4><p>$1.00</p><button onclick="agregarAlCarrito('Cuaderno 100hj', 1.00)">Añadir</button></div>
+    <div class="producto-card"><h4>Esfero</h4><p>$0.40</p><button onclick="agregarAlCarrito('Esfero', 0.40)">Añadir</button></div>
+    <div class="producto-card"><h4>Carpeta Plástica</h4><p>$0.60</p><button onclick="agregarAlCarrito('Carpeta Plástica', 0.60)">Añadir</button></div>
+    <div class="producto-card"><h4>Carpeta Cartón</h4><p>$0.40</p><button onclick="agregarAlCarrito('Carpeta Cartón', 0.40)">Añadir</button></div>
+    <div class="producto-card"><h4>Cartulina</h4><p>$0.15</p><button onclick="agregarAlCarrito('Cartulina', 0.15)">Añadir</button></div>
+    <div class="producto-card"><h4>Fomix</h4><p>$0.25</p><button onclick="agregarAlCarrito('Fomix', 0.25)">Añadir</button></div>
+
+    <div class="producto-card"><h4>Jabón</h4><p>$0.85</p><button onclick="agregarAlCarrito('Jabón', 0.85)">Añadir</button></div>
+    <div class="producto-card"><h4>Pasta Dental</h4><p>$1.10</p><button onclick="agregarAlCarrito('Pasta Dental', 1.10)">Añadir</button></div>
+    <div class="producto-card"><h4>Shampoo sachet</h4><p>$0.60</p><button onclick="agregarAlCarrito('Shampoo sachet', 0.60)">Añadir</button></div>
+
+    <div class="producto-card"><h4>Platos Desech.</h4><p>$1.20</p><button onclick="agregarAlCarrito('Platos Desech.', 1.20)">Añadir</button></div>
+    <div class="producto-card"><h4>Vasos Plásticos</h4><p>$0.90</p><button onclick="agregarAlCarrito('Vasos Plásticos', 0.90)">Añadir</button></div>
+    <div class="producto-card"><h4>Cubiertos</h4><p>$0.50</p><button onclick="agregarAlCarrito('Cubiertos', 0.50)">Añadir</button></div>
+</div>
+<div class="carrito-pedido">
+    <h3>📝 Tu Pedido Actual:</h3>
+    <ul id="lista-visual"></ul>
+    <p><strong>Total: $</strong><span id="total-precio">0.00</span></p>
+    <button class="btn-whatsapp" onclick="enviarPedido()">🚀 Pedir por WhatsApp</button>
+</div>
+<script src="script-pedidos.js"></script>
+</body>
+</html>

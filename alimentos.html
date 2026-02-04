@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Bazar Boyacá</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <main>
+  <header>
+    <div class="top-bar">
+      <div class="logo">BAZAR BOYACÁ</div>
+      
+    </div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="ubicacion.html">Ubicación</a>
+       <a href="pedido.html">Pedido</a>
+      <a href="autores.html">Autores</a>
+    </nav>
+  </header>
+  <section id="alimentos" class="catalogo-seccion">
+
+  <h2>Alimentos y Snacks</h2>
+
+  <h3 class="subtitulo">Snacks</h3>
+
+  <div class="grid-productos">
+<div class="producto" onclick="abrirModal(
+  'Doritos',
+  'imagenes/snacks/doritos.png',
+  'Maíz, aceite vegetal, queso en polvo, sal, saborizantes y colorantes.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/doritos.png" alt="Doritos">
+    <img src="imagenes/snacks/doritos2.png.jpeg" alt="Doritos">
+  </div>
+  <h4>Doritos</h4>
+  <p>Snack crujiente sabor queso.</p>
+  <span class="precio">$0.70</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Tostitos',
+  'imagenes/snacks/tostitos.png',
+  'Maíz, aceite vegetal, sal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/tostitos.png" alt="Tostitos">
+    <img src="imagenes/snacks/tostitos2.png.jpeg" alt="Tostitos">
+  </div>
+  <h4>Tostitos</h4>
+  <p>Totopos de maíz ideales para compartir.</p>
+  <span class="precio">$0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Ruffles',
+  'imagenes/snacks/rufles.png',
+  'Papas, aceite vegetal, sal, saborizantes.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/rufles.png" alt="Rufles">
+    <img src="imagenes/snacks/rufles2.png.jpeg" alt="Rufles">
+  </div>
+  <h4>Ruffles</h4>
+  <p>Papas onduladas con sabor intenso.</p>
+  <span class="precio">$0.70</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Panchitos',
+  'imagenes/snacks/panchitos.png',
+  'Maíz, aceite vegetal, sal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/panchitos.png" alt="Panchitos">
+    <img src="imagenes/snacks/panchitos2.png.jpeg" alt="Panchitos">
+  </div>
+  <h4>Panchitos</h4>
+  <p>Snack de maíz inflado y crocante.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Cheese Tris',
+  'imagenes/snacks/cheese tris.png',
+  'Maíz, aceite vegetal, queso en polvo.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/cheese tris.png" alt="Cheese Tris">
+    <img src="imagenes/snacks/cheese tris2.png.jpeg" alt="Cheese Tris">
+  </div>
+  <h4>Cheese Tris</h4>
+  <p>Palitos de maíz sabor queso.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Maduritos',
+  'imagenes/snacks/maduritos.png',
+  'Plátano, aceite vegetal, sal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/maduritos.png" alt="Maduritos">
+    <img src="imagenes/snacks/maduritos2.png.jpeg" alt="Maduritos">
+  </div>
+  <h4>Maduritos</h4>
+  <p>Chips de plátano crujientes.</p>
+  <span class="precio">$0.50</span>
+</div>
+</div>
+
+
+<h3 class="subtitulo">Galletas</h3>
+<div class="grid-productos">
+<div class="producto" onclick="abrirModal(
+  'Oreo',
+  'imagenes/snacks/oreo.png',
+  'Harina de trigo, azúcar, cacao, crema sabor vainilla.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/oreo.png" alt="Oreo">
+    <img src="imagenes/snacks/oreo2.png.jpeg" alt="Oreo">
+  </div>
+  <h4>Oreo</h4>
+  <p>Galletas rellenas de crema sabor vainilla.</p>
+  <span class="precio">$0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Ritz',
+  'imagenes/snacks/ritz.png',
+  'Harina de trigo, sal, aceite vegetal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/ritz.png" alt="Ritz">
+    <img src="imagenes/snacks/ritz2.png.jpeg" alt="Ritz">
+  </div>
+  <h4>Ritz</h4>
+  <p>Galletas saladas crocantes y ligeras.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'María',
+  'imagenes/snacks/maria.png',
+  'Harina de trigo, azúcar, vainilla.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/maria.png" alt="María">
+    <img src="imagenes/snacks/maria2.png.jpeg" alt="María">
+  </div>
+  <h4>María</h4>
+  <p>Galletas clásicas ideales para café.</p>
+  <span class="precio">$0.40</span>
+</div>
+<div class="producto" onclick="abrirModal(
+  'Krispiz',
+  'imagenes/snacks/krispiz.png',
+  'Harina de trigo, azúcar, chispas de chocolate, aceite vegetal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/krispiz.png" alt="Krispiz">
+    <img src="imagenes/snacks/krispiz2.png.jpeg" alt="Krispiz">
+  </div>
+  <h4>Krispiz</h4>
+  <p>Galletas con chispas de chocolate.</p>
+  <span class="precio">$0.70</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Amor',
+  'imagenes/snacks/amor.png',
+  'Harina de trigo, azúcar, relleno sabor vainilla y fresa.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/amor.png" alt="Amor">
+    <img src="imagenes/snacks/amor2.png.jpeg" alt="Amor">
+  </div>
+  <h4>Amor</h4>
+  <p>Galletas waffles de diferentes sabores.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Festival',
+  'imagenes/snacks/festival.png',
+  'Harina de trigo, azúcar, relleno sabor chocolate y fresa.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/festival.png" alt="Festival">
+    <img src="imagenes/snacks/festival2.png.jpeg" alt="Festival">
+  </div>
+  <h4>Festival</h4>
+  <p>Galletas dulces con relleno de sabores.</p>
+  <span class="precio">$0.40</span>
+</div>
+</div>
+
+<h3 class="subtitulo">Confitería</h3>
+<div class="grid-productos">
+<div class="producto" onclick="abrirModal(
+  'Chupetes',
+  'imagenes/snacks/plop.png',
+  'Azúcar, colorantes, saborizantes.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/plop.png" alt="Chupetes">
+    <img src="imagenes/snacks/plop2.png.jpeg" alt="Chupetes">
+  </div>
+  <h4>Chupetes</h4>
+  <p>Caramelos duros en palito.</p>
+  <span class="precio">$0.25</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Bombones',
+  'imagenes/snacks/bon o bon.png',
+  'Chocolate, leche, azúcar.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/bon o bon.png" alt="Bombones">
+    <img src="imagenes/snacks/bon o bon2.png.jpeg" alt="Bombones">
+  </div>
+  <h4>Bombones</h4>
+  <p>Chocolate relleno de crema dulce.</p>
+  <span class="precio">$0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Chicles',
+  'imagenes/snacks/agogo.png',
+  'Azúcar, goma base, saborizantes.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/agogo.png" alt="Chicles">
+    <img src="imagenes/snacks/agogo2.png.jpeg" alt="Chicles">
+  </div>
+  <h4>Chicles</h4>
+  <p>Goma de mascar de distintos sabores.</p>
+  <span class="precio">$0.10</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Mentas',
+  'imagenes/snacks/halls.png',
+  'Azúcar, mentol, sabor eucalipto.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/halls.png" alt="Mentas">
+    <img src="imagenes/snacks/halls2.png.jpeg" alt="Mentas">
+  </div>
+  <h4>Mentas</h4>
+  <p>Caramelos refrescantes para el aliento.</p>
+  <span class="precio">$0.10</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Manicho',
+  'imagenes/snacks/manicho.png',
+  'Chocolate, maní, azúcar, leche.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/manicho.png" alt="Manicho">
+    <img src="imagenes/snacks/manicho2.png.jpeg" alt="Manicho">
+  </div>
+  <h4>Manicho</h4>
+  <p>Chocolate en barra incrustado con maní.</p>
+  <span class="precio">$0.50</span>
+</div>
+</div>
+
+<h3 class="subtitulo">Helados</h3>
+<div class="grid-productos">
+<div class="producto" onclick="abrirModal(
+  'Corneto',
+  'imagenes/snacks/cornetto.pmg.png',
+  'Leche, azúcar, chocolate, galleta.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/cornetto.pmg.png" alt="Corneto">
+    <img src="imagenes/snacks/cornetto2.pmg.png.jpeg" alt="Corneto">
+  </div>
+  <h4>Corneto</h4>
+  <p>Helado cremoso en cono.</p>
+  <span class="precio">$1.00</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Casero',
+  'imagenes/snacks/casero.png',
+  'Fruta natural, agua, azúcar.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/casero.png" alt="Helado casero">
+    <img src="imagenes/snacks/casero2.png.jpeg" alt="Helado casero">
+  </div>
+  <h4>Casero</h4>
+  <p>Helado artesanal.</p>
+  <span class="precio">$0.90</span>
+</div>
+<div class="producto" onclick="abrirModal(
+  'Sánduche helado',
+  'imagenes/snacks/sandwich.png',
+  'Leche, azúcar, galleta de chocolate.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/sandwich.png" alt="Sánduche helado">
+    <img src="imagenes/snacks/sandwich2.png.jpeg" alt="Sánduche helado">
+  </div>
+  <h4>Sánduche</h4>
+  <p>Helado entre dos galletas suaves.</p>
+  <span class="precio">$1.00</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Gemelo',
+  'imagenes/snacks/gemelos.png',
+  'Agua, azúcar, saborizantes frutales.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/gemelos.png" alt="Gemelo">
+    <img src="imagenes/snacks/gemelos2.png.jpeg" alt="Gemelo">
+  </div>
+  <h4>Gemelo</h4>
+  <p>Helado doble de agua con sabores frutales.</p>
+  <span class="precio">$0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Polito',
+  'imagenes/snacks/polito.png',
+  'Agua, azúcar, sabor artificial.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/polito.png" alt="Polito">
+    <img src="imagenes/snacks/polito2.png.jpeg" alt="Polito">
+  </div>
+  <h4>Polito</h4>
+  <p>Helado pequeño tradicional de agua.</p>
+  <span class="precio">$0.30</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Magnu',
+  'imagenes/snacks/mangnum.png',
+  'Leche, chocolate, azúcar, crema.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/snacks/mangnum.png" alt="Magnu">
+    <img src="imagenes/snacks/mangnum2.png.jpeg" alt="Magnu">
+  </div>
+  <h4>Magnu</h4>
+  <p>Helado premium con cobertura de chocolate.</p>
+  <span class="precio">$1.50</span>
+</div>
+</div>
+
+</section>
+
+<a href="productos.html" class="boton-regresar-fijo">
+       Regresar
+    </a>
+</section>
+</main>
+
+<!-- MODAL DE INGREDIENTES -->
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">×</span>
+    <h3 id="modal-titulo"></h3>
+    <img id="modal-imagen" src="" alt="">
+    <p id="modal-ingredientes"></p>
+  </div>
+</div>
+
+<script>
+function abrirModal(nombre, imagen, ingredientes) {
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modal-titulo").innerText = nombre;
+  document.getElementById("modal-imagen").src = imagen;
+  document.getElementById("modal-ingredientes").innerText = ingredientes;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
+}
+</script>
+
+
+ <footer>
+  <p>Bazar Boyacá - 2025-2026</p>
+  </footer>
+  </body>
+  </html>

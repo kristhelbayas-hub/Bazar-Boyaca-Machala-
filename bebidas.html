@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Bazar Boyacá</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">BAZAR BOYACÁ</div>
+    </div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="ubicacion.html">Ubicación</a>
+       <a href="pedido.html">Pedido</a>
+      <a href="autores.html">Autores</a>
+    </nav>
+  </header>
+
+  <main>
+  <section id="papeleria" class="catalogo-seccion">
+
+  <h2>Bebidas</h2>
+<h3 class="subtitulo">Gaseosas</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Coca-Cola',
+  'imagenes/bebidas/coca cola.png',
+  'Bebida gaseosa refrescante, elaborada con agua carbonatada, azúcar, cafeína y saborizantes.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/coca cola.png" alt="Coca-Cola">
+    <img src="imagenes/bebidas/coca cola2.png.jpeg" alt="Coca-Cola">
+  </div>
+  <h4>Coca-Cola</h4>
+  <p>Bebida gaseosa refrescante.</p>
+  <span class="precio">300 ml $0.60 · 500 ml $0.80</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Pepsi',
+  'imagenes/bebidas/pepsi.png',
+  'Bebida gaseosa sabor cola, elaborada con agua carbonatada, azúcar y cafeína.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/pepsi.png" alt="Pepsi">
+    <img src="imagenes/bebidas/pepsi2png.jpeg" alt="Pepsi">
+  </div>
+  <h4>Pepsi</h4>
+  <p>Gaseosa sabor cola.</p>
+  <span class="precio">1 L $0.60 · 2 L $1.10</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Big Cola',
+  'imagenes/bebidas/big cola.png',
+  'Gaseosa económica con sabor cola, refrescante y accesible.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/big cola.png" alt="Big Cola">
+    <img src="imagenes/bebidas/big cola2.png.jpeg" alt="Big Cola">
+  </div>
+  <h4>Big Cola</h4>
+  <p>Gaseosa económica.</p>
+  <span class="precio">300 ml $0.30 · 1.1 L $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Inka Cola',
+  'imagenes/bebidas/inca kola.png',
+  'Gaseosa dulce de sabor tradicional, muy popular.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/inca kola.png" alt="Inka Cola">
+    <img src="imagenes/bebidas/inca kola2.png.jpeg" alt="Inka Cola">
+  </div>
+  <h4>Inka Cola</h4>
+  <p>Gaseosa dulce tradicional.</p>
+  <span class="precio">900 ml $0.65 · 1.35 L $1.25</span>
+</div>
+
+</div>
+
+
+<h3 class="subtitulo">Energizantes</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Gatorade',
+  'imagenes/bebidas/gatorade.png',
+  'Bebida deportiva diseñada para rehidratar y reponer electrolitos.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/gatorade.png" alt="Gatorade">
+    <img src="imagenes/bebidas/gatorade2.png.jpeg" alt="Gatorade">
+  </div>
+  <h4>Gatorade</h4>
+  <p>Bebida deportiva.</p>
+  <span class="precio">500 ml $0.65</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Vive 100',
+  'imagenes/bebidas/vive 100.png',
+  'Bebida energizante con cafeína y vitaminas.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/vive 100.png" alt="Vive 100">
+    <img src="imagenes/bebidas/vive 1002.png.jpeg" alt="Vive 100">
+  </div>
+  <h4>Vive 100</h4>
+  <p>Bebida energizante.</p>
+  <span class="precio">300 ml $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Volt',
+  'imagenes/bebidas/volt.png',
+  'Energizante de efecto rápido con cafeína.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/volt.png" alt="Volt">
+    <img src="imagenes/bebidas/volt.2png.jpeg" alt="Volt">
+  </div>
+  <h4>Volt</h4>
+  <p>Energizante.</p>
+  <span class="precio">400 ml $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  '220V',
+  'imagenes/bebidas/v220.png',
+  'Bebida energizante concentrada.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/v220.png" alt="220V">
+    <img src="imagenes/bebidas/v2202.png.jpeg" alt="220V">
+  </div>
+  <h4>220V</h4>
+  <p>Energizante concentrado.</p>
+  <span class="precio">330 ml $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Sporade',
+  'imagenes/bebidas/sporade.png',
+  'Bebida isotónica para rehidratación y recuperación.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/sporade.png" alt="Sporade">
+    <img src="imagenes/bebidas/sporade2.png.jpeg" alt="Sporade">
+  </div>
+  <h4>Sporade</h4>
+  <p>Bebida isotónica.</p>
+  <span class="precio">500 ml $0.60 · 1.2 L $1.10</span>
+</div>
+
+</div>
+
+
+<h3 class="subtitulo">Aguas</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Vivant',
+  'imagenes/bebidas/vivant.png',
+  'Agua purificada para hidratación diaria.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/vivant.png" alt="Vivant">
+    <img src="imagenes/bebidas/vivant2.png.jpeg" alt="Vivant">
+  </div>
+  <h4>Vivant</h4>
+  <p>Agua purificada.</p>
+  <span class="precio">Personal $0.50 · 1 L $0.65</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Dasani',
+  'imagenes/bebidas/dassani.png',
+  'Agua purificada de sabor fresco.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/dassani.png" alt="Dasani">
+    <img src="imagenes/bebidas/dassani2.png.jpeg" alt="Dasani">
+  </div>
+  <h4>Dasani</h4>
+  <p>Agua purificada.</p>
+  <span class="precio">1.2 L $0.75</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Pure Water',
+  'imagenes/bebidas/pure water.png',
+  'Agua purificada para consumo diario.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/pure water.png" alt="Pure Water">
+    <img src="imagenes/bebidas/pure water2.png.jpeg" alt="Pure Water">
+  </div>
+  <h4>Pure Water</h4>
+  <p>Agua purificada.</p>
+  <span class="precio">Personal $0.35 · Funda $0.25</span>
+</div>
+</div>
+
+
+<h3 class="subtitulo">Jugos</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Pulp',
+  'imagenes/bebidas/pulp.png',
+  'Jugo con pulpa de fruta natural.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/pulp.png" alt="Pulp">
+    <img src="imagenes/bebidas/pulp2.png.jpeg" alt="Pulp">
+  </div>
+  <h4>Pulp</h4>
+  <p>Jugo con pulpa.</p>
+  <span class="precio">250 ml $0.50 · 1 L $1.40</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Cifrut',
+  'imagenes/bebidas/cifrut.png',
+  'Bebida refrescante sabor frutal.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/cifrut.png" alt="Cifrut">
+    <img src="imagenes/bebidas/cifrut2.png.jpeg" alt="Cifrut">
+  </div>
+  <h4>Cifrut</h4>
+  <p>Bebida frutal.</p>
+  <span class="precio">1 L $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Frutaris',
+  'imagenes/bebidas/frutaris.png',
+  'Bebida frutal refrescante.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/frutaris.png" alt="Frutaris">
+    <img src="imagenes/bebidas/frutaris2.png.jpeg" alt="Frutaris">
+  </div>
+  <h4>Frutaris</h4>
+  <p>Bebida frutal.</p>
+  <span class="precio">300 ml $0.35 · 1 L $0.60</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Sunny',
+  'imagenes/bebidas/sunny.png',
+  'Jugo de frutas con sabor suave.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/sunny.png" alt="Sunny">
+    <img src="imagenes/bebidas/sunny.2png.jpeg" alt="Sunny">
+  </div>
+  <h4>Sunny</h4>
+  <p>Jugo de frutas.</p>
+  <span class="precio">195 ml $0.50</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Nicetea',
+  'imagenes/bebidas/nicetea.png',
+  'Té frío refrescante.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/bebidas/nicetea.png" alt="Nicetea">
+    <img src="imagenes/bebidas/nicetea2.png.jpeg" alt="Nicetea">
+  </div>
+  <h4>Nicetea</h4>
+  <p>Té frío.</p>
+  <span class="precio">240 ml $0.50</span>
+</div>
+
+</div>
+
+</section>
+
+<!-- MODAL DE INGREDIENTES -->
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">×</span>
+    <h3 id="modal-titulo"></h3>
+    <img id="modal-imagen" src="" alt="">
+    <p id="modal-ingredientes"></p>
+  </div>
+</div>
+
+<script>
+function abrirModal(nombre, imagen, ingredientes) {
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modal-titulo").innerText = nombre;
+  document.getElementById("modal-imagen").src = imagen;
+  document.getElementById("modal-ingredientes").innerText = ingredientes;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
+}
+</script>
+
+<a href="productos.html" class="boton-regresar-fijo">
+       Regresar
+    </a>
+</main>
+ <footer>
+  <p>Bazar Boyacá - 2025-2026</p>
+  </footer>
+  </body>
+  </html>

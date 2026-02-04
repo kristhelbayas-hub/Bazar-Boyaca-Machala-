@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Bazar Boyacá</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">BAZAR BOYACÁ</div>
+    </div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="ubicacion.html">Ubicación</a>
+       <a href="pedido.html">Pedido</a>
+      <a href="autores.html">Autores</a>
+    </nav>
+  </header>
+  <main>
+  <section id="plasticos-desechables" class="catalogo-seccion">
+
+  <h2>Plásticos y desechables</h2>
+
+<h3 class="subtitulo">Plásticos y desechables</h3>
+
+<div class="grid-productos">
+
+<div class="producto" onclick="abrirModal(
+  'Platos desechables',
+  'imagenes/plasticos/platos descartables.png',
+  'Paquete de platos plásticos ideales para eventos y reuniones.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/plasticos/platos descartables.png" alt="Platos desechables">
+  </div>
+  <h4>Platos desechables</h4>
+  <p>Plásticos para eventos.</p>
+  <span class="precio">Paquete $1.25</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Vasos plásticos',
+  'imagenes/plasticos/vasos plasticos.png',
+  'Paquete de vasos plásticos para bebidas frías.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/plasticos/vasos plasticos.png" alt="Vasos plásticos">
+  </div>
+  <h4>Vasos plásticos</h4>
+  <p>Para bebidas frías.</p>
+  <span class="precio">Paquete $1.00</span>
+</div>
+
+<div class="producto" onclick="abrirModal(
+  'Cucharas desechables',
+  'imagenes/plasticos/cucharas.png',
+  'Paquete de cucharas plásticas desechables.'
+)">
+  <div class="img-producto">
+    <img src="imagenes/plasticos/cucharas.png" alt="Cucharas desechables">
+  </div>
+  <h4>Cucharas desechables</h4>
+  <p>Uso práctico.</p>
+  <span class="precio">Paquete $1.00</span>
+</div>
+</div>
+
+  <!-- MODAL DE INGREDIENTES -->
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">×</span>
+    <h3 id="modal-titulo"></h3>
+    <img id="modal-imagen" src="" alt="">
+    <p id="modal-ingredientes"></p>
+  </div>
+</div>
+
+<script>
+function abrirModal(nombre, imagen, ingredientes) {
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modal-titulo").innerText = nombre;
+  document.getElementById("modal-imagen").src = imagen;
+  document.getElementById("modal-ingredientes").innerText = ingredientes;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
+}
+</script>
+
+  <a href="productos.html" class="boton-regresar-fijo">
+       Regresar
+    </a>
+
+</section>
+</main>
+ <footer>
+  <p>Bazar Boyacá - 2025-2026</p>
+  </footer>
+  </body>
+  </html>
